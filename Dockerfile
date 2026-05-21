@@ -56,12 +56,12 @@ ARG BUILD_DATE
 ARG VCS_REF
 
 # ── Image metadata ────────────────────────────────────────────
-LABEL maintainer="auduj01" \
+LABEL maintainer="ogwu002" \
       org.opencontainers.image.title="cfo" \
       org.opencontainers.image.description="CFO Maven application service" \
       org.opencontainers.image.created="${BUILD_DATE}" \
       org.opencontainers.image.revision="${VCS_REF}" \
-      org.opencontainers.image.source="https://github.com/auduj01/cfo"
+      org.opencontainers.image.source="https://github.com/ogwu002/cfo"
 
 WORKDIR /app
 
